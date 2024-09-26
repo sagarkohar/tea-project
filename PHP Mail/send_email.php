@@ -31,7 +31,7 @@ try {
     $mail->Host = 'smtp.gmail.com'; // Specify main and backup SMTP servers
     $mail->SMTPAuth = true; // Enable SMTP authentication
     $mail->Username = 'noreplygreencoffee@gmail.com'; // SMTP username//sender mail id
-    $mail->Password = 'mnzl xagq sztx sixc'; // SMTP password // sender mail id password
+    $mail->Password = ''; // SMTP password // sender mail id password
     $mail->SMTPSecure = 'ssl'; // Enable TLS encryption, ssl also accepted
     $mail->Port = 465; // TCP port to connect to
 
